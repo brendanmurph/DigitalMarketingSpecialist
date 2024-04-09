@@ -304,10 +304,6 @@ h6 {
   letter-spacing: 1px;
 }
 
-#hero .social-links {
-  margin-top: 30px;
-}
-
 #hero .social-links a {
   font-size: 24px;
   display: inline-block;
@@ -421,85 +417,36 @@ section {
 .about .content p:last-child {
   margin-bottom: 0;
 }
-
 /*--------------------------------------------------------------
-# Facts
+# Certifications
 --------------------------------------------------------------*/
-.facts .count-box {
-  padding: 30px 30px 25px 30px;
-  margin-top: 30px;
-  width: 100%;
-  position: relative;
+.skills-content {
   text-align: center;
-  background: #fff;
 }
-
-.facts .count-box i {
-  position: absolute;
-  top: -25px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 24px;
-  background: #0563bb;
-  color: #fff;
-  border-radius: 50px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  width: 48px;
-  height: 48px;
+.certs li {
+  list-style: none;
 }
-
-.facts .count-box span {
-  font-size: 36px;
-  display: block;
-  font-weight: 600;
-  color: #011426;
+.skills h4 {
+  font-size: 18px;
 }
-
-.facts .count-box p {
-  padding: 0;
-  margin: 0;
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
+.skills li { 
+  font-size: 16px;
+  margin: 1rem;
 }
-
-/*--------------------------------------------------------------
-# Akills
---------------------------------------------------------------*/
-.skills .progress {
-  height: 60px;
-  display: block;
-  background: none;
-  border-radius: 0;
+.skills-card {
+  margin: 1rem;
+  padding: 1rem 1rem;
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.09);
+  border-radius: 25px;
 }
-
-.skills .progress .skill {
-  padding: 10px 0;
-  margin: 0;
-  text-transform: uppercase;
-  display: block;
-  font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
+.edu-logo {
+  margin-bottom: 1.5rem;
 }
-
-.skills .progress .skill .val {
-  float: right;
-  font-style: normal;
+@media (min-width: 991px) {
+  #skills .container {
+    max-width:700px
+  }
 }
-
-.skills .progress-bar-wrap {
-  background: #f2f3f5;
-}
-
-.skills .progress-bar {
-  width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #0563bb;
-}
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -509,6 +456,7 @@ section {
   transition: all ease-in-out 0.3s;
   background: #fff;
   box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  border-radius: 25px;
 }
 
 .services .icon-box .icon {
