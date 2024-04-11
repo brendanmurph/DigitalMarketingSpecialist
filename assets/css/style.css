@@ -455,8 +455,34 @@ section {
   }
 }
 /*--------------------------------------------------------------
+# Work experience / Portfolio
+--------------------------------------------------------------*/
+.work-card {
+  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.09);
+  border-radius: 25px;
+  margin: 1rem;
+  text-align: center;
+}
+.arrow-right {
+  position: relative;
+}
+.arrow-right::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #007bff;
+}
+
+/*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
