@@ -462,6 +462,7 @@ section {
   border-radius: 25px;
   margin: 1rem;
   text-align: center;
+  perspective: 1000px;
 }
 .arrow-right {
   position: relative;
