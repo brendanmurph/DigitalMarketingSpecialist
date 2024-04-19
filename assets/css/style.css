@@ -477,13 +477,13 @@ button {
   content: '';
   position: absolute;
   right: 1rem;
-  top:15rem;
+  top:13rem;
   transform: translateY(-50%);
   width: 0;
   height: 0;
-  border-top: 20px solid transparent;
-  border-bottom: 20px solid transparent;
-  border-left: 20px solid #007bff;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid #007bff;
 }
 
 /*--------------------------------------------------------------
