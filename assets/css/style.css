@@ -383,12 +383,16 @@ section {
   margin-bottom: 0;
 }
 button {
-  background-color: #067ded90 ;
+  background-color: #007bff90;
   font-weight:800;
   border-radius: 20px;
   border: none;
   box-shadow: 1px 1px 1px 1px;
   color: #272829;
+}
+button:hover {
+  background-color: #007bff;
+  transition: ease-in-out 0.3s;
 }
 /*--------------------------------------------------------------
 # About
@@ -397,32 +401,6 @@ button {
   font-weight: 700;
   font-size: 26px;
   color: #728394;
-}
-
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-
-.about .content ul li {
-  margin-bottom: 20px;
-  display: flex;
-  align-items: center;
-}
-
-.about .content ul strong {
-  margin-right: 10px;
-}
-
-.about .content ul i {
-  font-size: 16px;
-  margin-right: 5px;
-  color: #0563bb;
-  line-height: 0;
-}
-
-.about .content p:last-child {
-  margin-bottom: 0;
 }
 /*--------------------------------------------------------------
 # Certifications
@@ -488,7 +466,7 @@ button {
   margin-top:2.5rem;
 }
 #milesinfo {
-  margin-bottom: 3rem;
+  margin-bottom: 1.3rem;
 }
 .arrow-right {
   position: relative;
@@ -896,4 +874,9 @@ button {
 
 #footer .credits {
   font-size: 13px;
+}
+@media (min-width:991px) {
+  .copyright {
+    margin-left: 6rem;;
+  }
 }
