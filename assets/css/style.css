@@ -485,13 +485,27 @@ button:hover {
 }
 @media (max-width: 991px) {
   .work-card {
-   margin-left: 3rem;
-   margin-right:3rem;
+   margin-left: 2rem;
+   margin-right:2rem;
   }
 }
-@media (max-width: 410px) {
+@media (max-width: 444.9px) {
   #ucsd {
    height:32rem;
+  }
+  #shcard {
+   height: 38rem;
+  }
+  .work-card p {
+    font-size:13px
+  }
+  .work-card h2 {
+    font-size: 18px;
+  }
+}
+@media (min-width: 356.9px) {
+  #shcard {
+    height: 36rem;
   }
 }
 /*--------------------------------------------------------------
