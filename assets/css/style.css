@@ -383,9 +383,11 @@ section {
   margin-bottom: 0;
 }
 button {
-  background-color: #067ded;
+  background-color: #067ded90 ;
   font-weight:800;
   border-radius: 20px;
+  border: none;
+  box-shadow: 1px 1px 1px 1px;
   color: #272829;
 }
 /*--------------------------------------------------------------
@@ -452,6 +454,16 @@ button {
   margin-bottom: 1.5rem;
   margin-top: 2rem;
 }
+#fed {
+ padding-left: 2rem;
+ padding-right: 2rem;
+}
+#klavlogo{
+  padding-top: 1rem;
+}
+#klavhead {
+  padding-top: 1rem;
+}
 @media (max-width: 991px) {
   .skills-card {
    margin-left: 3rem;
@@ -502,7 +514,6 @@ button {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
@@ -599,7 +610,7 @@ button {
 }
 
 .services .iconbox-yellow i {
-  color: #ffbb2c;
+  color: #96bf48;
 }
 
 .services .iconbox-yellow:hover .icon i {
@@ -607,11 +618,11 @@ button {
 }
 
 .services .iconbox-yellow:hover .icon path {
-  fill: #ffbb2c;
+  fill: #96bf48;
 }
 
 .services .iconbox-red i {
-  color: #ff5828;
+  color: #800020	;
 }
 
 .services .iconbox-red:hover .icon i {
@@ -619,7 +630,7 @@ button {
 }
 
 .services .iconbox-red:hover .icon path {
-  fill: #ff5828;
+  fill: #800020	;
 }
 
 .services .iconbox-teal i {
@@ -871,44 +882,16 @@ button {
   font-weight: 700;
   position: relative;
   font-family: "Poppins", sans-serif;
-  padding: 0;
-  margin: 0 0 15px 0;
 }
 
 #footer p {
   font-size: 15;
   font-style: italic;
-  padding: 0;
-  margin: 0 0 40px 0;
 }
-
-#footer .social-links {
-  margin: 0 0 40px 0;
-}
-
-#footer .social-links a {
-  font-size: 18px;
-  display: inline-block;
-  background: #0563bb;
-  color: #fff;
-  line-height: 1;
-  padding: 8px 0;
-  margin-right: 4px;
-  border-radius: 50%;
-  text-align: center;
-  width: 36px;
-  height: 36px;
-  transition: 0.3s;
-}
-
 #footer .social-links a:hover {
   background: #0678e3;
   color: #fff;
   text-decoration: none;
-}
-
-#footer .copyright {
-  margin: 0 0 5px 0;
 }
 
 #footer .credits {
