@@ -387,8 +387,8 @@ button {
   font-weight:800;
   border-radius: 20px;
   border: none;
-  box-shadow: 1px 1px 1px 1px;
-  color: #272829;
+  box-shadow: 1px 1px 1px 1px black;
+  color: #fff;
 }
 button:hover {
   background-color: #007bff;
